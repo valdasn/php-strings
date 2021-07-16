@@ -82,7 +82,7 @@ $movie5 = preg_replace('/\b[a-z]{6,}\b/i',' ',$movie5);
 $movie5 = str_word_count($movie5);
 echo $movie5;
 $movie6 = "Tik nereikia gąsdinti Pietų Centro, geriant sultis pas save kvartale";
-$movie6 = preg_replace('/\b[a-z]{6,20}\b/i',' ',$movie6);
+$movie6 = preg_replace('/\b[a-z]{6,20}\b/i',' ',$movie6);  //to fix
 $movie6 = str_word_count($movie6);
 echo "<br>" . $movie6;
 
